@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 104054526}
   - component: {fileID: 104054527}
   - component: {fileID: 104054528}
+  - component: {fileID: 104054529}
   m_Layer: 0
   m_Name: RacketPlayer2
   m_TagString: Untagged
@@ -322,7 +323,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104054521}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2903948c0ac0c345a1500aa9fec8f0b, type: 3}
   m_Name: 
@@ -349,6 +350,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!114 &104054529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104054521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a65584fdc47b343950f8a30e45a037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 200
+  ball: {fileID: 390292137}
 --- !u!1 &299591136
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,11 +455,11 @@ GameObject:
   - component: {fileID: 390292138}
   - component: {fileID: 390292141}
   - component: {fileID: 390292140}
+  - component: {fileID: 390292146}
   - component: {fileID: 390292142}
   - component: {fileID: 390292143}
   - component: {fileID: 390292144}
   - component: {fileID: 390292145}
-  - component: {fileID: 390292146}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
