@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreTextPlayer1: {fileID: 1589705223}
   scoreTextPlayer2: {fileID: 299591136}
-  goalToWin: 5
+  goalToWin: 1
 --- !u!1 &1305141862
 GameObject:
   m_ObjectHideFlags: 0
